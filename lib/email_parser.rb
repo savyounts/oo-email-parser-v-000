@@ -11,7 +11,7 @@ class EmailParser
   end
   
   def parse 
-    parser = self.new.split(",").uniq
+    parser.emails.split(" ")
   end
   
 end
