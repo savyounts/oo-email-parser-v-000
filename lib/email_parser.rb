@@ -6,6 +6,10 @@
 class EmailParser
   attr_accessor :emails 
   
+  def initialize
+    @emails = emails
+  end
+  
   def create
   parser = self.new
   end
