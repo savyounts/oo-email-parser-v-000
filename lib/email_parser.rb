@@ -7,7 +7,7 @@ class EmailParser
   attr_accessor :emails 
   
   def create
-  parser = self.new(emails)
+  parser = self.new
   end
   
   def self.parse 
