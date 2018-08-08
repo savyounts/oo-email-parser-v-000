@@ -11,7 +11,7 @@ class EmailParser
   end
   
   def parse 
-    self.emails
+    self.emails.split(/\W/)
   end
   binding.pry
 end
