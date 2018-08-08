@@ -11,7 +11,7 @@ class EmailParser
   end
   
   def parse 
-    parser.emails.split(/\W\).uniq
+    parser.emails.split(/\W\/).uniq
   end
   
 end
