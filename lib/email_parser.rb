@@ -9,10 +9,11 @@ class EmailParser
   def self.create(emails)
   parser = self.new
   parser.emails = (emails)
+  parser
   end
   
   def self.parse 
-    
+    self.create(emails).split(",").uniq
   end
   
 end
